@@ -5,3 +5,6 @@ Scrape from NFL.com -> Insert and save in database or csv -> NLP analysis -> pre
 
 https://www.nfl.com/draft/tracker/prospects/
 https://huggingface.co/blog/sentiment-analysis-python
+
+https://github.com/JasonKessler/Scattertext-PyData
+https://github.com/JasonKessler/scattertext
