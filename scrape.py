@@ -1,3 +1,10 @@
+# NOTE:
+# The scrape.py file is intended for informational purposes
+
+# Manual data cleansing was necessary in Excel as there are lot of players that do not have a bio and/or a grade
+# The complete, clean dataset is available under data/player_bios.csv
+
+
 # Dependencies
 import pandas as pd
 from splinter import Browser
