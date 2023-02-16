@@ -27,7 +27,9 @@ Can we draw any conculsions from the way scouts write about a prospect? Does the
 
 ## Data
 3,969 NFL prospect reports scraped from NFL.com  
+
 2014-2022 NFL drafts  
+
 Reports include a text-based assessment of the player and a grade  
 
 NFL Prospect Grading System:
@@ -49,7 +51,7 @@ NFL Prospect Grading System:
 First, let's take a look at how the distribution of player grades looks for these prospects:
 
 <p align="center">
-  <img src="images/grade_distribution.png" />
+  <img src="images/grade_distribution.png"/>
 </p>  
 
 hhee
