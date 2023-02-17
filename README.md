@@ -5,11 +5,12 @@ NLP analysis, summarization, question-answering, etc. etc. of NFL.com's draft pr
 
 Scrape from NFL.com -> Insert and save in database or csv -> NLP analysis -> prediction / generation / final product
 
-https://www.nfl.com/draft/tracker/prospects/
-https://huggingface.co/blog/sentiment-analysis-python
+https://www.nfl.com/draft/tracker/prospects/  
+https://huggingface.co/blog/sentiment-analysis-python  
 
-https://github.com/JasonKessler/Scattertext-PyData
-https://github.com/JasonKessler/scattertext
+https://github.com/JasonKessler/Scattertext-PyData  
+https://github.com/JasonKessler/scattertext  
+https://colab.research.google.com/drive/1xAXQqUJQnHKBu4K8Z_itMqmC7JPQzD0T#scrollTo=IQx-CuS4KLCC
 
 ## Introduction
 Football analytics in the modern era is highly sophisticated. The NFL uses player tracking to measure speed and movement, teams dedicate entire departments to analytics and analysis, and there are even entire Python and R libraries dedicated to advanced performance metrics. 
@@ -48,10 +49,10 @@ NFL Prospect Grading System:
 * 8.00: The Perfect Prospect
 
 ## Analysis
-First, let's take a look at how the distribution of player grades looks for these prospects:
+First, let's take a look at how the distribution of player grades looks for these prospects:  
 
 <p align="center">
-  <img src="images/grade_distribution.png"/>
+  <img src="images/grade_distribution.jpg"/>
 </p>  
 
 hhee
