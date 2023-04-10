@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ignore anything in the secrets folder
+secrets/
+
+# ignore config.py
+config.py

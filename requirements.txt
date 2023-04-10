@@ -10,3 +10,5 @@ seaborn
 transformers
 scattertext
 langchain
+openai
+tiktoken
