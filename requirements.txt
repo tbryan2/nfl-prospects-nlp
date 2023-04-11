@@ -12,3 +12,4 @@ scattertext
 langchain
 openai
 tiktoken
+pinecone-client
