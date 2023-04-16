@@ -10,12 +10,12 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 
+from config import openai_api_key, pinecone_api_key
 
 # Gradio app
-def greet(query):
-    OPENAI_API_KEY = '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'
-    PINECONE_API_KEY = '9d924de2-6f86-47cf-8fc1-ff61ef7542ed'
-    os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
+def question(query):
+    OPENAI_API_KEY = openai_api_key
+    PINECONE_API_KEY = pinecone_api_key
 
     embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
 
@@ -28,12 +28,14 @@ def greet(query):
     llm = OpenAI(temperature=0, openai_api_key=OPENAI_API_KEY)
     chain = load_qa_chain(llm, chain_type="stuff")
 
+    docsearch = Pinecone.from_existing_index(index_name, embeddings)
+
     docs = docsearch.similarity_search(query, include_metadata=True)
 
     return chain.run(input_documents=docs, question=query)
 
 
-demo = gr.Interface(fn=greet,
+demo = gr.Interface(fn=question,
                     inputs="text",
                     outputs="text")
 
