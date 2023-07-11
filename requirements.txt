@@ -9,3 +9,9 @@ nfl_data_py
 seaborn
 transformers
 scattertext
+langchain
+openai
+tiktoken
+pinecone-client
+gradio
+setuptools==45.0.0
